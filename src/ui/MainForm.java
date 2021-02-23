@@ -2,6 +2,8 @@ package ui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MainForm extends JFrame {
     private JPanel rootPanel;
@@ -19,5 +21,25 @@ public class MainForm extends JFrame {
         //quando fechar
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
+        setListeners();
+    }
+
+    private void setListeners(){
+        buttonNewContact.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //abre formulario
+                new ContactForm();
+                //fecha formulario
+                dispose();
+            }
+        });
+
+        buttonRemove.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 }
