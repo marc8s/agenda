@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="720fa245-5cc3-4aae-9b8d-2793875e909d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -35,6 +36,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="StartKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
