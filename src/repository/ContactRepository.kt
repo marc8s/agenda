@@ -11,8 +11,6 @@ class ContactRepository {
         }
 
         fun delete(contact: ContactEntity){
-            //maneira mais pratica:
-            //contactList.remove(contact)
             var index = 0
             for(item in contactList.withIndex()){
                 if(item.value.name == contact.name && item.value.phone == contact.phone){
