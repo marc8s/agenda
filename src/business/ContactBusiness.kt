@@ -21,6 +21,16 @@ class ContactBusiness{
 
     }
 
+    fun getContactCountDescription():String{
+        val list = getList()
+        return when{
+            list.isEmpty() -> "0 contatos"
+            list.size == 1 -> "1 contato"
+            else -> "${list.size} contatos"
+        }
+
+    }
+
     fun save(name: String, phone: String ){
         validate(name, phone)
         val contact = ContactEntity(name, phone)
