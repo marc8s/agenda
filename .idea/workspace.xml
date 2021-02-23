@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="720fa245-5cc3-4aae-9b8d-2793875e909d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ui/ContactForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/ContactForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
